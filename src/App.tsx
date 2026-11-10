@@ -2,15 +2,17 @@ import './App.css'
 import AdaptiveThresholdingDemo from './components/AdaptiveThresholdingDemo'
 import MorphologicalDemo from './components/MorphologicalDemo'
 import MorphologicalOps from './components/MorphologicalOps'
+import UniversityDepartmentsVisualization from './components/UniversityDepartmentsVisualization'
 
 function App() {
 
   return (
     <>
-      <MorphologicalOps/>
+    <UniversityDepartmentsVisualization/>
+{/*       <MorphologicalOps/>
       <AdaptiveThresholdingDemo/>
       <MorphologicalDemo/>
-    </>
+ */}    </>
   )
 }
 
